@@ -1,0 +1,29 @@
+{
+    "spec_version" : 1,
+    "name"         : "Interstellar Flight Inc. - Kerbal Life Support",
+    "abstract"     : "Life support mod that uses only one resource and stock electricity. Works with unloaded ships",
+    "identifier"   : "IFI-LifeSupport",
+    "$kref"        : "#/ckan/github/Will565/IFI-Life-Support",
+    "license"      : "GPL-3.0",
+    "author"       : [ "Stavell", "therealcrow999" ],
+    "release_status" : "stable",
+    "ksp_version"  : "0.90",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92011"
+    },
+    "install" : [
+        {
+            "file"       : "IFILS",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "UniversalStorage-IFI" }
+    ],
+    "suggests" : [
+        { "name" : "KerbalAlarmClock" }
+    ]
+}
